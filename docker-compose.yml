@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  java-app:
+    image: openjdk:16
+    container_name: java-api-app
+    working_dir: /usr/src/app
+    volumes:
+      - ./app:/usr/src/app
+    ports:
+      - "8080:8080"
+    command: ["sh", "-c", "while true; do sleep 30; done"]
+
+volumes:
+  app:
