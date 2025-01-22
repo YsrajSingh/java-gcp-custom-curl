@@ -50,5 +50,5 @@ This project is open source and available under the MIT License. Feel free to fo
 
 We welcome all contributions, big and small, to make this tool better!
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/YsrajSingh/java-gcp-custom-curl/blob/main/LICENSE) file for details.
